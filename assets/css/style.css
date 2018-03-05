@@ -35,6 +35,14 @@ p {
 }
 
 
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+			border-style: solid;
+			border-top: 5px solid #0f7eea;
+}
+
 .navbar {
       /* margin-bottom: 40px; */
       border-radius: 0;
@@ -79,19 +87,12 @@ p {
 			margin-top: 10px;
 			background-color: #f1f1f1;
 			margin-right: 10px;
+			margin-bottom: 40px;
 }
 
 #mainBio{
 	    background-color: #f1f1f1;
 			margin-left: 45px;
-}
-
-footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-			border-style: solid;
-			border-top: 5px solid #0f7eea;
 }
 
 #portfolioLinks {
@@ -100,5 +101,14 @@ footer {
 			padding-right: 50px;
 			margin-left: 20px;
 			margin-top: 10px;
-			margin-right: 10px;
+			margin-right: 20px;
+			margin-bottom: 40px;
+}
+
+#contact {
+	   background-color: #f1f1f1;
+		 margin-left: 20px;
+		 margin-right: 10px;
+		 margin-top: 10px;
+		 margin-bottom: 40px;
 }
