@@ -1,91 +1,75 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
-	
+	<title>Brandon Owens' Portfolio</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="all" href="assets/css/reset.css">
+
+  <!-- <link rel="stylesheet" media="all" href="assets/css/style.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" media="all" href="assets/css/style.css">
-
-<title>Brandon Owens' Portfolio</title>
-
 </head>
 
 <body>
-	
-	<div id=header>
-		<h1>Brandon Owens</h1>
-	</div>
-	
-	<div id=topbar>	
-		<div id=about>
-			<h2><a href=index.html>About</a></h2>
-		</div>
-		
-		<div id=line1>
-			<line>|</line>
-		</div>
-	
-		<div id=line2>
-			<line>|</line>
-		</div>
-	
-		<div id=portfolio>
-			<h2><a href=portfolio.html>Portfolio</a></h2>
-		</div>
-	
-		<div id=contact>
-			<h2><a href=contact.html>Contact</a></h1>	
-		</div>
-	</div>
-	
-	<div id=whitebar>
-	</div>
-	
-	<div id=contactform>
-		<div id=connect>
-		<h1>Contact</h1>
-		</div>
-			<div id=fields>
-			<form>
-			Name:<br>
-			<input type="text name="firstname" placeholder="Your name..."><br>
-			Email<br>
-			<input type="text name="email" placeholder="example@gmail.com"><br>
-			Message<br>
-			<textarea name="message" rows="10" cols="30"></textarea><br>
-			<input type="submit" value="Submit">
-			<form action="/action_page.php" target="_blank">
-			</form>
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #ffffff">
+  <div class="container-fluid">
+    <a class="navbar-brand col-sm-8" href="index.html">
+    <img src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/blogo.jpg" width="300" height="50"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse col-sm-4" id="myNavbar">
+      <ul class="navbar-nav navbar-right mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+      <a class="nav-link" href="index.html">About </a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="portfolio.html">Portfolio </a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--This is almost working, but my grid is messed up. Need help with columns and grids.-->
+<div class="container-fluid text-center">
+  <div  class="row content">
+		<div class="col-sm" id=contactform>
+			<div id=connect>
+			<h1>Contact</h1>
 			</div>
+				<div id=fields>
+				<form>
+				Name:<br>
+				<input type="text name="firstname" placeholder="Your name..."><br>
+				Email<br>
+				<input type="text name="email" placeholder="example@gmail.com"><br>
+				Message<br>
+				<textarea name="message" rows="10" cols="30"></textarea><br>
+				<input type="submit" value="Submit">
+				<form action="/action_page.php" target="_blank">
+				</form>
+				</div>
+		</div>
+
+ 		<div class="col-sm-2 sidenav text-center" id="sideNav"><h5>Connect with Me</h5>
+	      <div id="links"
+				<a href="https://github.com/brandonao/Basic-Portfolio">
+				<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/gh-icon.png" width="30" height="30"></a>
+				<a href="https://www.linkedin.com/in/brandon-owens-8b723b159/">
+				<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/in-icon.png" width="30" height="30"></a>
+				<a href="https://stackoverflow.com/users/9352066/brandon-ao">
+				<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/so-icon.png" width="30" height="30"></a>
+	  </div>
 	</div>
-	
-	<div id=links>
-		<div id=connect>
-		<h3>Connect with Me</h3>
-		</div>
-		
-		<div id=gh>
-			<a href="https://github.com/brandonao/Basic-Portfolio">
-			<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/gh-icon.png" width="40" height="40">
-			</a>
-		</div>
-		
-		<div id=in>
-			<a href="https://www.linkedin.com/in/brandon-owens-8b723b159/">
-			<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/in-icon.png" width="40" height="40">
-			</a>
-		</div>
-		
-		<div id=so>
-			<a href="https://stackoverflow.com/users/9352066/brandon-ao">
-			<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/so-icon.png" width="40" height="40">
-			</a>
-		</div>
-	</div>
-	
-	<div id=footer>
-		<foot>Copyright 2018 Brandon Owens</foot>
-	</div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>@Copyright 2018 Brandon Owens</p>
+</footer>
 
 
 </body>
