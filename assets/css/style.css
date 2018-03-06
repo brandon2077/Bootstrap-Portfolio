@@ -51,13 +51,8 @@ form {
 	font-size: 12px;
 }
 
-/* button {
-	padding:
-} */
-
-
 #home {
-  margin: 75px 10px 0px 10px;
+  margin: 75px 25px 0px 10px;
 	border-style: solid;
   border: 2px solid #888888;
 }
@@ -84,114 +79,3 @@ form {
 #connectLinks {
 	margin-top: 15px;
 }
-
-
-/* nav {
-
-}
-
-a {
-
-}
-
-h1 {
-			font-style: sans-serif;
-			color: #0f7eea;
-			background-color: #f1f1f1;
-			border-style: solid;
-			border-bottom: 4px solid #777777;
-
-}
-
-h5 {
-			font-size: 16px;
-			border-style: solid;
-			border-bottom: 2px solid #777777;
-			padding-bottom: 10px;
-} */
-
-
-
-/* .border {
-	display: inline-block;
-	width: 70px;
-	height: 70px;
-  margin: 6px;
-} */
-/*
-#home {
-  margin-bottom: 40px;
-  border-radius: 2;
-} */
-/* img {
-	float: left;
-} */
-
-
-
-
-/*
-.row.content {height: 450px}
-
-.sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 150px;
-			font-family: sans-serif;
-			margin-top: 10px;
-}
-
-.col-sm-5 {
-			color: #0f7eea;
-			background-color: #f1f1f1;
-			font-family: sans-serif;
-		  height: 345px;
-			padding-top: 10px;
-
-}
-
-.col-sm-2 {
-	    color: #0f7eea;
-	    background-color: #f1f1f1;
-	    font-family: sans-serif;
-	    height: 345px;
-	    padding-top: 10px;
-}
-
-#mainPic {
-			background-color: #f1f1f1;
-			padding-bottom: 50px;
-			padding-top: 10px;
-			margin-top: 10px;
-			margin-left: 25px;
-}
-
-#aboutMe {
-			margin-top: 10px;
-			background-color: #f1f1f1;
-			margin-right: 10px;
-			margin-bottom: 40px;
-}
-
-#mainBio{
-	    background-color: #f1f1f1;
-			margin-left: 45px;
-}
-
-#portfolioLinks {
-			background-color: #f1f1f1;
-			padding-left: 50px;
-			padding-right: 50px;
-			margin-left: 20px;
-			margin-top: 10px;
-			margin-right: 20px;
-			margin-bottom: 40px;
-}
-
-#contact {
-	   background-color: #f1f1f1;
-		 margin-left: 20px;
-		 margin-right: 10px;
-		 margin-top: 10px;
-		 margin-bottom: 40px;
-} */
