@@ -8,66 +8,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" media="all" href="assets/css/reset.css">
 
-  <!-- <link rel="stylesheet" media="all" href="assets/css/style.css"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" media="all" href="assets/css/style.css">
 </head>
 
 <body>
-<nav class="navbar navbar-expand-md navbar-light" style="background-color: #ffffff">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" alt="topnav">
   <div class="container-fluid">
-    <a class="navbar-brand col-sm-8" href="index.html">
-    <img src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/blogo.jpg" width="300" height="50"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse col-sm-4" id="myNavbar">
-      <ul class="navbar-nav navbar-right mr-auto mt-2 mt-lg-0">
+
+	<!-- Brand/logo -->
+  <a class="navbar-brand col-sm-6" href="#">
+    <img src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/bcirclelogoinv.png" alt="logo" style="width:40px;">  Brandon Owens
+	</a>
+
+	<!-- Toggler/collapsible Button -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<!-- Navbar links -->
+	<div class="collapse navbar-collapse col-sm-4" id="collapsibleNavbar">
+
+	<!-- Links -->
+	  <ul class="navbar-nav">
+			<!-- Dropdown -->
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"></a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="index.html">Home</a>
+					<a class="dropdown-item" href="portfolio.html">Projects</a>
+					<a class="dropdown-item" href="contact.html">Contact</a>
+				</div>
+			</li>
       <li class="nav-item">
-      <a class="nav-link" href="index.html">About </a></li>
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="portfolio.html">Projects</a>
+      </li>
       <li class="nav-item">
-      <a class="nav-link" href="portfolio.html">Portfolio </a></li>
-      <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact </a></li>
-      </ul>
-    </div>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+	</div>
   </div>
 </nav>
+<br>
 
-<!-- I am stuck on this part. Having a lot of trouble positioning and sizing images on the grid.
--->
-<div class="container-fluid text-center" id="portfolioLinks">
-  <div  class="row content">
-		<div class="col-sm-8 text-left">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8" style="background-color: #f1f1f1;" id="home">
 			<h1>Projects</h1>
-		</div>
-		<img class="img-responsive col-sm-5"
-		src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/frontEnd.png" height="150" width="150">
-		<img class="img-responsive col-sm-5" src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/backEnd.png" height="150" width="150">
-		<div class="col-sm-2 sidenav text-center" id="sideNav"><h5>Connect with Me</h5>
-	      <div id="links"
-				<a href="https://github.com/brandonao/Basic-Portfolio">
-				<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/gh-icon.png" width="30" height="30"></a>
-				<a href="https://www.linkedin.com/in/brandon-owens-8b723b159/">
-				<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/in-icon.png" width="30" height="30"></a>
-				<a href="https://stackoverflow.com/users/9352066/brandon-ao">
-				<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/so-icon.png" width="30" height="30"></a>
-	  </div>
-	</div>
-	<div class="row content">
-		<img class="img-responsive col-sm-5" src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/research.png" height="150" width="150">
-		<img class="img-responsive col-sm-5" src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/data.png" height="150" width="150">
-	<div class="row content">
-		<img class="img-responsive col-sm-5" src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/matrix.png" height="150" width="150">
-		<img class="img-responsive col-sm-5" src="https://raw.githubusercontent.com/brandonao/Bootstrap-Portfolio/master/assets/images/apps.png" height="150" width="150">
+      <img  src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/imgFrontend.jpg" width="65%" height="auto">
+			<img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/imgBackend.jpg" width="65%" height="auto">
+
     </div>
-  </div>
+
+		<div class="col-sm-3 text-center" style="background-color: #f1f1f1;" id="connect">
+			<h5>Connect with Me</h5>
+			<div id="connectLinks">
+	    <a href="https://github.com/brandonao/Basic-Portfolio"><img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/gh-icon.png" width="30" height="30" id="logoGithub"></a>
+	    <a href="https://www.linkedin.com/in/brandon-owens-8b723b159/"><img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/in-icon.png" width="30" height="30" id="logoLinked"></a>
+	    <a href="https://stackoverflow.com/users/9352066/brandon-ao"><img src="https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/so-icon.png" width="30" height="30" id="logoStackO"></a>
+		  </div>
+		</div>
+	</div>
 </div>
 
+<br>
 
-<footer class="container-fluid text-center">
-  <p>@Copyright 2018 Brandon Owens</p>
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12">
+      <h4 class="bg-dark text-white text-center">@Copyright 2018 Brandon Owens</h4>
+		</div>
+	</div>
 </footer>
+
+
 
 
 </body>
